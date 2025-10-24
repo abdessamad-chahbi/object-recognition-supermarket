@@ -138,10 +138,14 @@ git clone https://github.com/abdessamad-chahbi/object-recognition-supermarket.gi
 cd object-recognition-supermarket
 ```
 
-2️⃣ Install dependencies:
+2️⃣ (Optional) Create and activate a virtual environment:
 
 ```bash
-pip install -r requirements.txt
+python -m venv .venv
+# Windows
+.venv\Scripts\activate
+# macOS / Linux
+source .venv/bin/activate
 ```
 
 3️⃣ Install dependencies:
